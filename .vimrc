@@ -21,3 +21,5 @@ set cursorline
 set incsearch
 " Highlight matches
 set hlsearch
+
+" To add more configuration below.
