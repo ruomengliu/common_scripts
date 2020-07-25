@@ -23,3 +23,5 @@ set incsearch
 set hlsearch
 
 " To add more configuration below.
+" To enable auto-complete every time a HTML file is opened
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
