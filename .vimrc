@@ -8,6 +8,8 @@ set tabstop=4
 set softtabstop=4
 " tabs are spaces
 set expandtab
+" To change the number of space characters inserted for indentation
+:set shiftwidth=4
 " Load filetype-specific indent files
 filetype indent on
 
@@ -33,3 +35,15 @@ autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 " Enable omni completion
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
+
+
+
+
+
+
+
+
+
+
+
+
