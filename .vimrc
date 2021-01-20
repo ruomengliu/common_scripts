@@ -46,10 +46,16 @@ set noerrorbells
 " Start shifting screen when 8 lines away from edge, either top or bottom
 set scrolloff=10
 
+" Some useful key remaps
 inoremap jk <Esc>
 inoremap kj <Esc>
-
-
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
 
 
 
