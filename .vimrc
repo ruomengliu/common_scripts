@@ -46,8 +46,8 @@ set noerrorbells
 " Start shifting screen when 8 lines away from edge, either top or bottom
 set scrolloff=10
 
-imap jk <Esc>
-imap kj <Esc>
+inoremap jk <Esc>
+inoremap kj <Esc>
 
 
 
