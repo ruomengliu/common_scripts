@@ -49,6 +49,8 @@ set scrolloff=10
 " Some useful key remaps
 inoremap jk <Esc>
 inoremap kj <Esc>
+inoremap kk <Esc>
+inoremap jj <Esc>
 inoremap " ""<left>
 inoremap ' ''<left>
 inoremap ( ()<left>
