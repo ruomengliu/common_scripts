@@ -59,7 +59,8 @@ inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
 
-
+nmap oo o<Esc>k
+nmap OO O<Esc>j
 
 
 
