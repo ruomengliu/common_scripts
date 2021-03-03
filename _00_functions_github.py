@@ -1,4 +1,9 @@
 
+import pandas as pd
+import pandas.core.algorithms as algos
+import numpy as np
+
+
 # The in_df dataframe should contain only one cross-section.
 # char is the characteristic to sort on.
 # group is the intended number of bins to sort into.
