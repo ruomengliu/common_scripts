@@ -20,7 +20,7 @@ set smartindent
 
 """"" UI config
 " Highlight current line
-set cursorline
+" set cursorline
 " Visual autocomplete for command menu
 
 """"" Search
@@ -46,7 +46,7 @@ set noerrorbells
 " Start shifting screen when 8 lines away from edge, either top or bottom
 set scrolloff=10
 
-" Some useful key remaps
+" Some useful key remaps for Latex editing
 inoremap jk <Esc>
 inoremap kj <Esc>
 inoremap kk <Esc>
@@ -56,6 +56,7 @@ inoremap ' ''<left>
 inoremap ( ()<left>
 inoremap [ []<left>
 inoremap { {}<left>
+inoremap $ $$<left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
 
