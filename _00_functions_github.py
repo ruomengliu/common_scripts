@@ -8,13 +8,14 @@ import numpy as np
 # char is the characteristic to sort on.
 # group is the intended number of bins to sort into.
 # nyse is a binary variable that tells the function whether to use all or just NYSE firms to determine the bin edges/breakpoints.
-# The function keeps the original dataframe intact, and adds a column that is by default named a+'_sort'
+# The function keeps the original dataframe intact, and adds a column that is by default named a+'_sort,' where a is the name of the variable based on which observations are sorted into bins.
 
 # Example:
 # df is a panel dataframe of firm-month observations.
-# To sort firms by date into quintiles by NYSE breakpoints on some characteristic a, do:
-# df = df.groupby(['date']).apply(xs_CharSort, a, 5, nyse))
+# To sort firms by date into quintiles based on NYSE breakpoints on some characteristic a, do:
+# df = df.groupby(['date']).apply(xs_CharSort, a, 5, True))
 # df.reset_index(drop=True, inplace=True)
+# When bins are created wrt to the entire cross-section, simply replace True with False.
 
 
 def xs_CharSort(in_df, char, group, nyse):
